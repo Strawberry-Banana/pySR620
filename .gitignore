@@ -1,0 +1,8 @@
+#local history dir
+.lh/
+
+#vs code dir
+.vs/
+
+#python cache
+.__pycache__/
