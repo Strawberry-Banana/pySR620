@@ -9,6 +9,8 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
+from ui.MatplotlibWidget import MatplotlibWidget
+from ui.myComboBox import MyComboBox
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -61,5 +63,4 @@ class Ui_MainWindow(object):
         self.SerialSelectBox.setItemText(0, _translate("MainWindow", "选择串口…"))
         self.StartButton.setText(_translate("MainWindow", "开始"))
         self.label.setText(_translate("MainWindow", "已停止"))
-from MatplotlibWidget import MatplotlibWidget
-from myComboBox import MyComboBox
+

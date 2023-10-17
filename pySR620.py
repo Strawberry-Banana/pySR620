@@ -15,7 +15,7 @@ from PyQt5.QtCore import  QThread, pyqtSignal,pyqtSlot
 from PyQt5.QtWidgets import QMainWindow, QApplication
 
 
-from mainWindow import Ui_MainWindow
+from ui.mainWindow import Ui_MainWindow
 
 #变量初始化
 rx_buff = [] #存储串口传入的信息
@@ -117,6 +117,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                               "每 0.5s":500  ,
                               "每 0.1s":100  ,
                               "每0.05s":50   ,
+                              "每0.02s":20   ,
                               "每0.01s":10    }
         self.TimeBaseSelectBox.clear()
         for i in self.timeintervals:

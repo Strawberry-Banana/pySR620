@@ -4,5 +4,10 @@
 #vs code dir
 .vs/
 
-#python cache
-.__pycache__/
+#pyinstaller cache
+build/
+__pycache__/
+ui/__pycache__/
+
+#.exe dir
+dist/
