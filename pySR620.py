@@ -3,15 +3,15 @@
 import sys
 import serial
 import serial.tools.list_ports
-import time
-import os
+#import time
+#import os
 import numpy as np
 import datetime
-import math
+#import math
 
 from PyQt5 import QtGui, QtCore, QtWidgets
 #from PyQt5.QtGui import *
-from PyQt5.QtCore import  QThread, pyqtSignal,pyqtSlot
+from PyQt5.QtCore import  QThread, pyqtSignal, pyqtSlot
 from PyQt5.QtWidgets import QMainWindow, QApplication
 
 
